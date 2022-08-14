@@ -1,0 +1,112 @@
+1  > mkdir Coding-PGT
+ - membuat direktori 'Coding-PGT'
+
+2  > cd Coding-PGT
+ - masuk ke direktori 'Coding-PGT'
+
+3  > echo Ini adalah contoh file text > test.txt
+ - membuat file dengan nama 'test.txt' berisikan teks yang telah diinput
+
+4  > dir
+ Volume in drive D has no label.
+ Volume Serial Number is 0403-0201
+
+ Directory of D:\Coding-PGT
+
+14/08/2022  09.35    <DIR>          .
+14/08/2022  09.35    <DIR>          ..
+14/08/2022  09.44                30 test.txt
+               1 File(s)             30 bytes
+               2 Dir(s)  31.946.604.544 bytes free
+
+5  > type test.txt
+Ini adalah contoh file text
+
+6  > copy test.txt test-copy.txt
+        1 file(s) copied.
+
+7  > xcopy . ..
+.\test.txt
+.\test-copy.txt
+2 File(s) copied
+
+8  > del test-copy.txt
+ - menghapus file test-copy.txt
+
+9  > chdir
+D:\Coding-PGT
+
+10 > tree
+Folder PATH listing
+Volume serial number is 0403-0201
+D:.
+No subfolders exist
+
+11 > getmac
+Physical Address    Transport Name
+=================== ==========================================================
+20-16-B9-AC-F5-30   \Device\Tcpip_{62268E04-DF1A-4027-B0C7-29D5C188789B}
+
+12 > ping 8.8.8.8
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=41ms TTL=113
+Reply from 8.8.8.8: bytes=32 time=42ms TTL=113
+Reply from 8.8.8.8: bytes=32 time=70ms TTL=113
+Reply from 8.8.8.8: bytes=32 time=45ms TTL=113
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 41ms, Maximum = 70ms, Average = 49ms
+
+13 > ipconfig
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 5:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::84d6:a1a5:3dcc:c838%11
+   IPv4 Address. . . . . . . . . . . : 192.168.126.192
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.126.46
+
+14 > cipher
+ Listing D:\Coding-PGT\
+ New files added to this directory will not be encrypted.
+
+U test.txt
+U kemampuan-dasar-1
+
+15 > date
+The current date is: 14/08/2022
+Enter the new date: (dd-mm-yy)
+
+16 > time
+The current time is: 10.09.15,87
+Enter the new time:
+
+17 > ver
+Microsoft Windows [Version 10.0.18363.1379]
+
+18 > color 3
+ - text berubah warna menjadi biru
+
+19 > start
+ - jendela shell yang baru terbuka
+
+20 > exit
+ - jendela shell tertutup
+
+
+
